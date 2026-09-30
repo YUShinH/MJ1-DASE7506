@@ -1,0 +1,15 @@
+{
+  "vocab": 2048,
+  "width": 192,
+  "heads": 4,
+  "depth": 4,
+  "context": 256,
+  "variant": "residual_dropout",
+  "dropout": 0.0,
+  "backbone": "relu2",
+  "cache_lambda": 0.0,
+  "cache_theta": 10.0,
+  "cache_window": 256,
+  "position_encoding": "rope",
+  "rope_theta": 10000.0
+}
