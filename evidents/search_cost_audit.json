@@ -1,0 +1,457 @@
+{
+  "scope": "Retained completed training/gate records, excluding packaging smoke checks. This is not an exhaustive elapsed-time ledger.",
+  "completed_backbones": [
+    {
+      "record": "runs\\backbone-search-s17\\rmsnorm\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 448.45755609999924,
+      "process_seconds": 490.0389837999992,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0,
+        "backbone": "relu2",
+        "cache_lambda": 0.0,
+        "cache_theta": 10.0,
+        "cache_window": 256,
+        "norm_type": "rmsnorm"
+      },
+      "seed": 17,
+      "record_sha256": "52c6fb346ce6e308d26d5eb6ee82e198d763715c223049d05122a28805c6c29e"
+    },
+    {
+      "record": "runs\\backbone-search-s17\\rope\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 481.02369629999794,
+      "process_seconds": 523.7320002999995,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0,
+        "backbone": "relu2",
+        "cache_lambda": 0.0,
+        "cache_theta": 10.0,
+        "cache_window": 256,
+        "position_encoding": "rope",
+        "rope_theta": 10000.0
+      },
+      "seed": 17,
+      "record_sha256": "1ea3682d30ee6304bfe45156ca7a0aa7345a20a78a5b219b9217ba92ca9c27ed"
+    },
+    {
+      "record": "runs\\baseline-long-gpu-s17\\metrics.json",
+      "train_tokens": 29491200,
+      "train_seconds": 91.9565825000027,
+      "process_seconds": 117.77994969999418,
+      "config": {
+        "vocab": 2048,
+        "width": 128,
+        "heads": 4,
+        "depth": 4,
+        "context": 256
+      },
+      "seed": 17,
+      "record_sha256": "6f5b94bbb197609e41b99386b703dba8cb4e2f12c4a8258f3fcb06fd42675797"
+    },
+    {
+      "record": "runs\\baseline-s17\\metrics.json",
+      "train_tokens": 9830400,
+      "train_seconds": 1129.0871753000029,
+      "process_seconds": 1166.5915930999981,
+      "config": {
+        "vocab": 2048,
+        "width": 128,
+        "heads": 4,
+        "depth": 4,
+        "context": 256
+      },
+      "seed": 17,
+      "record_sha256": "339f511606407d56f52c6d3b33c24e1420bb4335ff3e126240a6217550683eee"
+    },
+    {
+      "record": "runs\\final-student-s17\\metrics.json",
+      "train_tokens": 29491200,
+      "train_seconds": 95.28118410002207,
+      "process_seconds": 123.55258969998977,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0
+      },
+      "seed": 17,
+      "record_sha256": "eac689c49ce295cc53131e6ff3a4484d4a03c0260177d97045fda5bf131146da"
+    },
+    {
+      "record": "runs\\relu2-tuning-s17\\lr0008\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 355.4122365999983,
+      "process_seconds": 394.3506229000004,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0,
+        "backbone": "relu2",
+        "cache_lambda": 0.0,
+        "cache_theta": 10.0,
+        "cache_window": 256
+      },
+      "seed": 17,
+      "record_sha256": "6137ede877a64fcea73298cfa8f109cfdc778f781ebf7e9ad6632c742ff7d801"
+    },
+    {
+      "record": "runs\\relu2-tuning-s17\\wd015\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 364.86370420000094,
+      "process_seconds": 406.5779014,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0,
+        "backbone": "relu2",
+        "cache_lambda": 0.0,
+        "cache_theta": 10.0,
+        "cache_window": 256
+      },
+      "seed": 17,
+      "record_sha256": "d3ea48e16ec60a6b7f6e692a02b8cf8238d2c75431baa0f1aa24ab4d2da449c0"
+    },
+    {
+      "record": "runs\\rope-tuning-s17\\lr0008\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 488.5388839999996,
+      "process_seconds": 529.0350343999999,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0,
+        "backbone": "relu2",
+        "cache_lambda": 0.0,
+        "cache_theta": 10.0,
+        "cache_window": 256,
+        "position_encoding": "rope",
+        "rope_theta": 10000.0
+      },
+      "seed": 17,
+      "record_sha256": "92f04541fa21294328bd5fda4ebb3b7052f5958b390638276a2be3d4ac77a4cf"
+    },
+    {
+      "record": "runs\\rope-tuning-s17\\wd020\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 513.8507558999991,
+      "process_seconds": 553.4690935999988,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0,
+        "backbone": "relu2",
+        "cache_lambda": 0.0,
+        "cache_theta": 10.0,
+        "cache_window": 256,
+        "position_encoding": "rope",
+        "rope_theta": 10000.0
+      },
+      "seed": 17,
+      "record_sha256": "2e709957bfc6abbd3b49e81f64520f5390045c1a0ff0d6da21f365207138e96b"
+    },
+    {
+      "record": "runs\\student-dropout-s17\\metrics.json",
+      "train_tokens": 29491200,
+      "train_seconds": 98.908115800019,
+      "process_seconds": 127.13202039999305,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.1
+      },
+      "seed": 17,
+      "record_sha256": "f75a9a35cbf5f24b3f9f7ed33ba80951d1c2309d7ca446a4a82d79f2d4dda301"
+    },
+    {
+      "record": "runs\\student-long12000-s17\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 343.1055243999581,
+      "process_seconds": 385.4272109000012,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0
+      },
+      "seed": 17,
+      "record_sha256": "ce07f074c52a7059788ca0a53459bde09ef3477396ed76f26f08ea353a551a41"
+    },
+    {
+      "record": "runs\\student-long7200-s17\\metrics.json",
+      "train_tokens": 58982400,
+      "train_seconds": 199.2479937000171,
+      "process_seconds": 229.94875049999973,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0
+      },
+      "seed": 17,
+      "record_sha256": "4f39e6226e54a34b7a862b1061d920bd9208b67a7bea1b37d3103896b67aba0a"
+    },
+    {
+      "record": "runs\\student-no-dropout-s17\\metrics.json",
+      "train_tokens": 29491200,
+      "train_seconds": 95.28118410002207,
+      "process_seconds": 123.55258969998977,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0
+      },
+      "seed": 17,
+      "record_sha256": "eac689c49ce295cc53131e6ff3a4484d4a03c0260177d97045fda5bf131146da"
+    },
+    {
+      "record": "runs\\student-qkv_conv12000-s17\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 571.1341646000074,
+      "process_seconds": 621.4424140000046,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0,
+        "backbone": "qkv_conv",
+        "cache_lambda": 0.0,
+        "cache_theta": 10.0,
+        "cache_window": 256
+      },
+      "seed": 17,
+      "record_sha256": "7dc1a23297f95819d178dfb93f626a735f82e0049f4bdcbc83a3f28dfba00bd9"
+    },
+    {
+      "record": "runs\\student-relu212000-s17\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 341.20781890000217,
+      "process_seconds": 378.3491018000059,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "dropout": 0.0,
+        "backbone": "relu2",
+        "cache_lambda": 0.0,
+        "cache_theta": 10.0,
+        "cache_window": 256
+      },
+      "seed": 17,
+      "record_sha256": "44c8e8b7d45064002a2d49ed798faaa73a8953c51b496489075f944b992a7f60"
+    },
+    {
+      "record": "runs\\student-swiglu12000-s17\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 359.86617529996147,
+      "process_seconds": 397.7837666000123,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "swiglu",
+        "ffn_hidden": 512,
+        "dropout": 0.0,
+        "cache_lambda": 0.0,
+        "cache_theta": 10.0,
+        "cache_window": 256
+      },
+      "seed": 17,
+      "record_sha256": "514225b37b97518f1cbfc2a0cb9391ff9a83c37e3e96d59120dd3ed2d003119d"
+    },
+    {
+      "record": "runs\\swiglu-tuning-s17\\lower_lr\\metrics.json",
+      "train_tokens": 98304000,
+      "train_seconds": 372.24921120000045,
+      "process_seconds": 414.2195686,
+      "config": {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "variant": "residual_dropout",
+        "backbone": "swiglu",
+        "ffn_hidden": 512,
+        "dropout": 0.0,
+        "cache_lambda": 0.0,
+        "cache_theta": 10.0,
+        "cache_window": 256
+      },
+      "seed": 17,
+      "record_sha256": "289579644b25e89d08f7cfbd3120d48bb566fb79edad4e7c4dc4bdae56a8ec34"
+    }
+  ],
+  "completed_gate_searches": [
+    {
+      "record": "runs\\backbone-search-s17\\rmsnorm-gate\\selection.json",
+      "train_targets": 72266840,
+      "process_seconds": 126.51415309999993,
+      "record_sha256": "19feaf372aac86a619ce50fbc43a23879637c869e4bbc9195b1a90cdc74d17c1"
+    },
+    {
+      "record": "runs\\backbone-search-s17\\rope-gate\\selection.json",
+      "train_targets": 72266840,
+      "process_seconds": 126.77605089999997,
+      "record_sha256": "c8c7c14055efb595be16654ee733762624aba74d9774c7a95ae2e96a8aa3d3bd"
+    },
+    {
+      "record": "runs\\gate-qkv_conv-s17\\selection.json",
+      "train_targets": 36133420,
+      "process_seconds": 77.91288670001086,
+      "record_sha256": "36373c21c7e47e7d69ae35ee1d7a421e15fc613e78a5f48425c8de18740314a4"
+    },
+    {
+      "record": "runs\\gate-relu2-s17\\selection.json",
+      "train_targets": 36133420,
+      "process_seconds": 77.55218879999302,
+      "record_sha256": "d8a52586c343a2e7941bd38a35a669b8e01ef5f4a7982f6d36e3c15d1097071b"
+    },
+    {
+      "record": "runs\\gated-cache-s17\\selection.json",
+      "train_targets": 36133420,
+      "process_seconds": 72.01772439999331,
+      "record_sha256": "81b4f14e710090dbbdcb2cfd0dca3ee6f684292223e38bc8fff2495178eda4b6"
+    },
+    {
+      "record": "runs\\gated-cache-s18\\selection.json",
+      "train_targets": 36133420,
+      "process_seconds": 82.1116153000039,
+      "record_sha256": "bf55f91c7a57a71044332c9f17bc0bbe6da991497941a5d5311c37a8d8bb38d4"
+    },
+    {
+      "record": "runs\\manual-gate-theta15\\selection.json",
+      "train_targets": 36133420,
+      "process_seconds": 71.48289210000075,
+      "record_sha256": "2fd6ff653829c41e6cdf57135d77fb9299f19e8f7cbeece6d2df6cc4bf8df2c3"
+    },
+    {
+      "record": "runs\\manual-gate-theta5\\selection.json",
+      "train_targets": 36133420,
+      "process_seconds": 76.58211180000217,
+      "record_sha256": "37c165ce95dddca8b923c5c784f0ac9079f961b31857e9912dc1da180e19ab38"
+    },
+    {
+      "record": "runs\\relu2-tuning-s17\\control-gate\\selection.json",
+      "train_targets": 72266840,
+      "process_seconds": 130.50018820000014,
+      "record_sha256": "5eb718b9409ffa16924ae2d08db57048047a4c97109029b2f6713d90b71f557c"
+    },
+    {
+      "record": "runs\\relu2-tuning-s17\\gate-lr0005\\selection.json",
+      "train_targets": 72266840,
+      "process_seconds": 124.2827084999999,
+      "record_sha256": "89e3465de83f29e6e8b355e6de6b0bc9782fa814c6724685e0d68a3d1bcc3040"
+    },
+    {
+      "record": "runs\\relu2-tuning-s17\\lr0008-gate\\selection.json",
+      "train_targets": 72266840,
+      "process_seconds": 121.30969749999986,
+      "record_sha256": "bd95b4801bae35b89a03fadb3fa5570243af9679f7d806ea68ce81e1884f0f97"
+    },
+    {
+      "record": "runs\\relu2-tuning-s17\\wd015-gate\\selection.json",
+      "train_targets": 72266840,
+      "process_seconds": 129.38360160000047,
+      "record_sha256": "b5f58cdbe1548b7407bcbd425f9b8339a97a2d3e15338393a79aa4d5c0173a89"
+    },
+    {
+      "record": "runs\\rope-tuning-s17\\control-gate\\selection.json",
+      "train_targets": 72266840,
+      "process_seconds": 106.58672289999959,
+      "record_sha256": "0e477322141a6498dacd980a566f2fe6f5c68e38c8cddb363ed576380783844b"
+    },
+    {
+      "record": "runs\\rope-tuning-s17\\gate-lr0005\\selection.json",
+      "train_targets": 72266840,
+      "process_seconds": 121.51513859999977,
+      "record_sha256": "4cc73442c0b9a29cbefbbf3c1e1e334ca3f9a5af7ec0ecc43e92898236b12dc4"
+    },
+    {
+      "record": "runs\\rope-tuning-s17\\lr0008-gate\\selection.json",
+      "train_targets": 72266840,
+      "process_seconds": 122.25848469999983,
+      "record_sha256": "a5bfb06df8602766375bbeabad70f9e5ea13dbf5da2bb22398a44433b974d357"
+    },
+    {
+      "record": "runs\\rope-tuning-s17\\wd020-gate\\selection.json",
+      "train_targets": 72266840,
+      "process_seconds": 121.43072889999894,
+      "record_sha256": "fd5c4fb25295baab829da56c63ef1c53a71a71a7e1256c01e12a9ccae643a2fa"
+    }
+  ],
+  "incomplete_known_runs": [
+    {
+      "log": "runs/swiglu-tuning-s17/lower_decay-train.log",
+      "last_logged_training": {
+        "step": 10400,
+        "loss": 2.671337127685547,
+        "seconds": 313.7033781999994
+      },
+      "complete": false
+    },
+    {
+      "log": "runs/final-combined-s17/logs/train.log",
+      "last_logged_training": {
+        "step": 10800,
+        "loss": 2.7762374877929688,
+        "seconds": 513.7682530999446
+      },
+      "complete": false
+    }
+  ],
+  "note": "Do not add orchestration process_seconds to component process_seconds; that double counts. Identical record hashes identify copies."
+}

@@ -1,0 +1,60 @@
+{
+  "frozen_utc": "2026-09-29T19:13:56.787436+00:00",
+  "selection_split": "validation",
+  "candidates": [
+    {
+      "name": "control",
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\control-gate\\checkpoint.pt",
+      "bpb": 1.5457409105032514,
+      "gate_epoch": 9,
+      "gate_lr": 0.001
+    },
+    {
+      "name": "lr0008",
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\lr0008-gate\\checkpoint.pt",
+      "bpb": 1.5485852013581156,
+      "gate_epoch": 10,
+      "gate_lr": 0.001
+    },
+    {
+      "name": "wd020",
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\checkpoint.pt",
+      "bpb": 1.5391036331925854,
+      "gate_epoch": 9,
+      "gate_lr": 0.001
+    },
+    {
+      "name": "wd020-gate-lr0005",
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\gate-lr0005\\checkpoint.pt",
+      "bpb": 1.5400648773082588,
+      "gate_lr": 0.0005,
+      "gate_epoch": 10
+    },
+    {
+      "name": "previous_final",
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\backbone-search-s17\\final-rope\\checkpoint.pt",
+      "bpb": 1.5489374043152968,
+      "gate_epoch": 9,
+      "gate_lr": 0.001
+    }
+  ],
+  "selected": {
+    "name": "wd020",
+    "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\checkpoint.pt",
+    "bpb": 1.5391036331925854,
+    "gate_epoch": 9,
+    "gate_lr": 0.001
+  },
+  "files": {
+    "E:\\MP1_student_starter\\MP1_student_starter\\code\\student.py": "3cd7fa8d4538f5f63007f99452d456111db6aa1e487c74deecc9f9ade2027fc6",
+    "E:\\MP1_student_starter\\MP1_student_starter\\code\\model.py": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+    "E:\\MP1_student_starter\\MP1_student_starter\\code\\common.py": "d40dc1fe6578b5993a563bdb4d9e5317ddc9fae8afe48822b66571c7042e84db",
+    "E:\\MP1_student_starter\\MP1_student_starter\\code\\evaluate.py": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+    "E:\\MP1_student_starter\\MP1_student_starter\\code\\train_relu2_tune.py": "8e318bfcfc292f03e923fd19c0eacb740174b73932301f8d42ef2285ffbe7b40",
+    "E:\\MP1_student_starter\\MP1_student_starter\\code\\train_gate_tune.py": "0c50a166dd4e304e8eccbcac41490f509ec2b34a7004467433d577e787140898",
+    "E:\\MP1_student_starter\\MP1_student_starter\\code\\average_rope_tune.py": "c045ce86fe9eef983f8a2c116643e6c3e09f756fbd088585cf85e6c3212c8b39",
+    "E:\\MP1_student_starter\\MP1_student_starter\\code\\run_rope_tuning.py": "563bbe280d0c4dc81810762336a7dee1c0a7a54dd19922a43c1b22d91d7696e7",
+    "E:\\MP1_student_starter\\MP1_student_starter\\code\\measure_eval.py": "8be87db03a7c200b12f83d98afd16298f2197b6181989e9b12941444df2f52d5",
+    "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\final\\checkpoint.pt": "7c53ebdcf91ea086c6916a082c3f01cdb3278747cf050ac3bba8cac0cb5998cf"
+  }
+}

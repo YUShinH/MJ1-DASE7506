@@ -1,0 +1,18 @@
+{
+  "full_test_bpb": 1.5553096072435364,
+  "checkpoint_sha256": "7c53ebdcf91ea086c6916a082c3f01cdb3278747cf050ac3bba8cac0cb5998cf",
+  "cleanup_predictions_identical": true,
+  "unit_tests_passed": 12,
+  "official_files_and_data_unchanged": true,
+  "cpu_time_ratio": 2.795582879699757,
+  "peak_ram_gib": 1.8116035461425781,
+  "inference_assets_bytes": 10298382,
+  "training_pipeline_smoke": {
+    "steps": 2,
+    "batch_size": 2,
+    "gate_epochs": 1,
+    "backbone_unchanged": true,
+    "note": "Entry-point check only; not a new full training or reported model score."
+  },
+  "final_model": "checkpoints/final.pt"
+}

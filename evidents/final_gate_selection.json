@@ -1,0 +1,302 @@
+{
+  "plan": {
+    "seed": 17,
+    "epochs": 10,
+    "batch_size": 4096,
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "gate_kinds": [
+      "constant",
+      "mlp"
+    ],
+    "gate_cap": 0.5,
+    "initial_lambda": 0.05,
+    "theta": 10,
+    "trainable": "gate only; backbone weights and cache unchanged",
+    "selection": "full validation after every epoch; test only after freeze",
+    "parent": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-average\\average-9.pt",
+    "parent_sha256": "1ace2e9642c3ab1fce202b86674cf7058cceb2539eb5af15df05132f04035ff4"
+  },
+  "feature_seconds": 30.567398699999103,
+  "train_targets_per_epoch": 3613342,
+  "base_validation_bpb": 1.6016732585562878,
+  "fixed_validation_bpb": 1.560950489035107,
+  "candidates": [
+    {
+      "kind": "constant",
+      "epoch": 1,
+      "validation_bpb": 1.565584766847729,
+      "lambda_mean": 0.028767110779881477,
+      "lambda_q10_q50_q90": [
+        0.028767112642526627,
+        0.028767112642526627,
+        0.028767112642526627
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-1.pt"
+    },
+    {
+      "kind": "constant",
+      "epoch": 2,
+      "validation_bpb": 1.5678785306246426,
+      "lambda_mean": 0.022920463234186172,
+      "lambda_q10_q50_q90": [
+        0.02292046509683132,
+        0.02292046509683132,
+        0.02292046509683132
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-2.pt"
+    },
+    {
+      "kind": "constant",
+      "epoch": 3,
+      "validation_bpb": 1.5686595704191895,
+      "lambda_mean": 0.021254083141684532,
+      "lambda_q10_q50_q90": [
+        0.021254083141684532,
+        0.021254083141684532,
+        0.021254083141684532
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-3.pt"
+    },
+    {
+      "kind": "constant",
+      "epoch": 4,
+      "validation_bpb": 1.5688235233797971,
+      "lambda_mean": 0.02092118002474308,
+      "lambda_q10_q50_q90": [
+        0.02092118188738823,
+        0.02092118188738823,
+        0.02092118188738823
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-4.pt"
+    },
+    {
+      "kind": "constant",
+      "epoch": 5,
+      "validation_bpb": 1.568893612788482,
+      "lambda_mean": 0.020780732855200768,
+      "lambda_q10_q50_q90": [
+        0.020780732855200768,
+        0.020780732855200768,
+        0.020780732855200768
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-5.pt"
+    },
+    {
+      "kind": "constant",
+      "epoch": 6,
+      "validation_bpb": 1.5688993058745389,
+      "lambda_mean": 0.020769299939274788,
+      "lambda_q10_q50_q90": [
+        0.020769301801919937,
+        0.020769301801919937,
+        0.020769301801919937
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-6.pt"
+    },
+    {
+      "kind": "constant",
+      "epoch": 7,
+      "validation_bpb": 1.5688488497159838,
+      "lambda_mean": 0.020870298147201538,
+      "lambda_q10_q50_q90": [
+        0.020870300009846687,
+        0.020870300009846687,
+        0.020870300009846687
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-7.pt"
+    },
+    {
+      "kind": "constant",
+      "epoch": 8,
+      "validation_bpb": 1.5687517015143988,
+      "lambda_mean": 0.021066294983029366,
+      "lambda_q10_q50_q90": [
+        0.021066294983029366,
+        0.021066294983029366,
+        0.021066294983029366
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-8.pt"
+    },
+    {
+      "kind": "constant",
+      "epoch": 9,
+      "validation_bpb": 1.5688868113188719,
+      "lambda_mean": 0.02079429291188717,
+      "lambda_q10_q50_q90": [
+        0.02079429291188717,
+        0.02079429291188717,
+        0.02079429291188717
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-9.pt"
+    },
+    {
+      "kind": "constant",
+      "epoch": 10,
+      "validation_bpb": 1.569074407396387,
+      "lambda_mean": 0.02042270451784134,
+      "lambda_q10_q50_q90": [
+        0.02042270451784134,
+        0.02042270451784134,
+        0.02042270451784134
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-10.pt"
+    },
+    {
+      "kind": "mlp",
+      "epoch": 1,
+      "validation_bpb": 1.5431804505084894,
+      "lambda_mean": 0.048394035547971725,
+      "lambda_q10_q50_q90": [
+        0.0009151948033832014,
+        0.010267696343362331,
+        0.1604062020778656
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-1.pt"
+    },
+    {
+      "kind": "mlp",
+      "epoch": 2,
+      "validation_bpb": 1.541420610176684,
+      "lambda_mean": 0.05141368880867958,
+      "lambda_q10_q50_q90": [
+        0.0003153019060846418,
+        0.012168657965958118,
+        0.1551244854927063
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-2.pt"
+    },
+    {
+      "kind": "mlp",
+      "epoch": 3,
+      "validation_bpb": 1.5411102706605777,
+      "lambda_mean": 0.050494901835918427,
+      "lambda_q10_q50_q90": [
+        0.0001503216481069103,
+        0.012213523499667645,
+        0.14424878358840942
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-3.pt"
+    },
+    {
+      "kind": "mlp",
+      "epoch": 4,
+      "validation_bpb": 1.5402940835882206,
+      "lambda_mean": 0.053841933608055115,
+      "lambda_q10_q50_q90": [
+        8.126992906909436e-05,
+        0.012792048044502735,
+        0.15286071598529816
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-4.pt"
+    },
+    {
+      "kind": "mlp",
+      "epoch": 5,
+      "validation_bpb": 1.5401304145658108,
+      "lambda_mean": 0.05193059891462326,
+      "lambda_q10_q50_q90": [
+        6.580899935215712e-05,
+        0.01202151644974947,
+        0.1437833607196808
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-5.pt"
+    },
+    {
+      "kind": "mlp",
+      "epoch": 6,
+      "validation_bpb": 1.540650744372342,
+      "lambda_mean": 0.05036664754152298,
+      "lambda_q10_q50_q90": [
+        6.304683483904228e-05,
+        0.01219979953020811,
+        0.1357271522283554
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-6.pt"
+    },
+    {
+      "kind": "mlp",
+      "epoch": 7,
+      "validation_bpb": 1.5396507574637897,
+      "lambda_mean": 0.053498391062021255,
+      "lambda_q10_q50_q90": [
+        6.862503505544737e-05,
+        0.012727032415568829,
+        0.14676538109779358
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-7.pt"
+    },
+    {
+      "kind": "mlp",
+      "epoch": 8,
+      "validation_bpb": 1.5397155064054577,
+      "lambda_mean": 0.052831631153821945,
+      "lambda_q10_q50_q90": [
+        7.690555503359064e-05,
+        0.012430337257683277,
+        0.14429298043251038
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-8.pt"
+    },
+    {
+      "kind": "mlp",
+      "epoch": 9,
+      "validation_bpb": 1.5391036331862922,
+      "lambda_mean": 0.05479660630226135,
+      "lambda_q10_q50_q90": [
+        8.605201583122835e-05,
+        0.013370909728109837,
+        0.1501932442188263
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-9.pt"
+    },
+    {
+      "kind": "mlp",
+      "epoch": 10,
+      "validation_bpb": 1.5394355175612906,
+      "lambda_mean": 0.053275834769010544,
+      "lambda_q10_q50_q90": [
+        9.537782170809805e-05,
+        0.012374157086014748,
+        0.14583544433116913
+      ],
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-10.pt"
+    }
+  ],
+  "selected_dynamic": {
+    "kind": "mlp",
+    "epoch": 9,
+    "validation_bpb": 1.5391036331862922,
+    "lambda_mean": 0.05479660630226135,
+    "lambda_q10_q50_q90": [
+      8.605201583122835e-05,
+      0.013370909728109837,
+      0.1501932442188263
+    ],
+    "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\mlp-epoch-9.pt"
+  },
+  "selected_constant": {
+    "kind": "constant",
+    "epoch": 1,
+    "validation_bpb": 1.565584766847729,
+    "lambda_mean": 0.028767110779881477,
+    "lambda_q10_q50_q90": [
+      0.028767112642526627,
+      0.028767112642526627,
+      0.028767112642526627
+    ],
+    "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-gate\\constant-epoch-1.pt"
+  },
+  "verified_dynamic": {
+    "bpb": 1.5391036331925854,
+    "token_ppl": 25.843551508043532,
+    "nll_nats": 1224722.9626170937,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 1.6823813999999402
+  },
+  "backbone_unchanged": true,
+  "new_gate_training_targets": 72266840,
+  "process_seconds": 121.43072889999894
+}

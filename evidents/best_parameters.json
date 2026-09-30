@@ -1,0 +1,59 @@
+{
+  "model_config": {
+    "vocab": 2048,
+    "width": 192,
+    "heads": 4,
+    "depth": 4,
+    "context": 256,
+    "variant": "gated_cache",
+    "dropout": 0.0,
+    "backbone": "relu2",
+    "cache_lambda": 0.0,
+    "cache_theta": 10.0,
+    "cache_window": 256,
+    "position_encoding": "rope",
+    "rope_theta": 10000.0,
+    "gate_kind": "mlp",
+    "gate_cap": 0.5,
+    "gate_initial": 0.05
+  },
+  "backbone_recipe": {
+    "lr": 0.001,
+    "weight_decay": 0.2,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "warmup": 100,
+    "min_lr_ratio": 0.1,
+    "grad_clip": 1.0
+  },
+  "seed": 17,
+  "search_training_steps": 12000,
+  "batch_size": 32,
+  "averaging": {
+    "count": 9,
+    "steps": [
+      3600,
+      4200,
+      4800,
+      5400,
+      6000,
+      6600,
+      7200,
+      7800,
+      8400
+    ],
+    "method": "arithmetic same-trajectory checkpoint average"
+  },
+  "gate_training": {
+    "parent_sha256": "1ace2e9642c3ab1fce202b86674cf7058cceb2539eb5af15df05132f04035ff4",
+    "seed": 17,
+    "epochs": 9,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "processed_targets": 32520078,
+    "trainable_parameters": 161
+  },
+  "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\final\\checkpoint.pt"
+}

@@ -1,0 +1,119 @@
+{
+  "selected_on": "validation",
+  "source_run": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020",
+  "candidates": [
+    {
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-average\\average-1.pt",
+      "sha256": "27e9efbd4bea3dd37244c743a5d68a62561535268527741ced1fb91484384b01",
+      "steps": [
+        8400
+      ],
+      "count": 1,
+      "bpb": 1.633417257343681,
+      "token_ppl": 31.542688685123256,
+      "nll_nats": 1299771.8798533455,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 1.5127146999984689
+    },
+    {
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-average\\average-3.pt",
+      "sha256": "7fc44d9ce1bc320c65f81bc2b71ca9109d7d2a20b0f82cc1f09c7d0367966417",
+      "steps": [
+        7200,
+        7800,
+        8400
+      ],
+      "count": 3,
+      "bpb": 1.6115568077161297,
+      "token_ppl": 30.118861878398587,
+      "nll_nats": 1282376.6934249562,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 0.9006679000012809
+    },
+    {
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-average\\average-5.pt",
+      "sha256": "53bf7038a632640550b21754ef15c39d4f3a7d012ede847ebef0d300e3d2d906",
+      "steps": [
+        6000,
+        6600,
+        7200,
+        7800,
+        8400
+      ],
+      "count": 5,
+      "bpb": 1.6053228987721708,
+      "token_ppl": 29.724738020681418,
+      "nll_nats": 1277416.1363410295,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 0.8784133999997721
+    },
+    {
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-average\\average-7.pt",
+      "sha256": "abb71962d81f0e79deb30094334b83bad143db60d330ed91c4f28cc90b2309db",
+      "steps": [
+        4800,
+        5400,
+        6000,
+        6600,
+        7200,
+        7800,
+        8400
+      ],
+      "count": 7,
+      "bpb": 1.602156627992361,
+      "token_ppl": 29.526537415778897,
+      "nll_nats": 1274896.614948014,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 0.8763959000007162
+    },
+    {
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-average\\average-9.pt",
+      "sha256": "1ace2e9642c3ab1fce202b86674cf7058cceb2539eb5af15df05132f04035ff4",
+      "steps": [
+        3600,
+        4200,
+        4800,
+        5400,
+        6000,
+        6600,
+        7200,
+        7800,
+        8400
+      ],
+      "count": 9,
+      "bpb": 1.6016732585562878,
+      "token_ppl": 29.49639619911446,
+      "nll_nats": 1274511.9796089642,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 0.9223932999993849
+    }
+  ],
+  "selected": {
+    "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\rope-tuning-s17\\wd020-average\\average-9.pt",
+    "sha256": "1ace2e9642c3ab1fce202b86674cf7058cceb2539eb5af15df05132f04035ff4",
+    "steps": [
+      3600,
+      4200,
+      4800,
+      5400,
+      6000,
+      6600,
+      7200,
+      7800,
+      8400
+    ],
+    "count": 9,
+    "bpb": 1.6016732585562878,
+    "token_ppl": 29.49639619911446,
+    "nll_nats": 1274511.9796089642,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 0.9223932999993849
+  },
+  "process_seconds": 25.205367900000056
+}

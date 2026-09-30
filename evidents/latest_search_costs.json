@@ -1,0 +1,47 @@
+[
+  {
+    "stage": "control average",
+    "seconds": 21.482376300000396,
+    "targets": 0
+  },
+  {
+    "stage": "control gate",
+    "seconds": 106.58672289999959,
+    "targets": 72266840
+  },
+  {
+    "stage": "lr0008 training",
+    "seconds": 529.0350343999999,
+    "targets": 98304000
+  },
+  {
+    "stage": "lr0008 average",
+    "seconds": 24.360038499999064,
+    "targets": 0
+  },
+  {
+    "stage": "lr0008 gate",
+    "seconds": 122.25848469999983,
+    "targets": 72266840
+  },
+  {
+    "stage": "wd020 training",
+    "seconds": 553.4690935999988,
+    "targets": 98304000
+  },
+  {
+    "stage": "wd020 average",
+    "seconds": 25.205367900000056,
+    "targets": 0
+  },
+  {
+    "stage": "wd020 gate",
+    "seconds": 121.43072889999894,
+    "targets": 72266840
+  },
+  {
+    "stage": "gate-lr0005",
+    "seconds": 121.51513859999977,
+    "targets": 72266840
+  }
+]

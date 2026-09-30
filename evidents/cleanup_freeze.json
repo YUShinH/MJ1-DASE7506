@@ -1,0 +1,7 @@
+{
+  "student.py": "f87c10ca1b7c76c1f4038fb484b2851d492da80696a8cb0654126cadaab662e2",
+  "model.py": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "common.py": "d40dc1fe6578b5993a563bdb4d9e5317ddc9fae8afe48822b66571c7042e84db",
+  "evaluate.py": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+  "checkpoints/final.pt": "7c53ebdcf91ea086c6916a082c3f01cdb3278747cf050ac3bba8cac0cb5998cf"
+}

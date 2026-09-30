@@ -1,0 +1,235 @@
+{
+  "backbones": [
+    {
+      "name": "control",
+      "lr": 0.001,
+      "weight_decay": 0.1,
+      "run_dir": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\student-relu212000-s17",
+      "train_dir": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\student-relu212000-s17",
+      "best_single_bpb": 1.649022207146868,
+      "best_single_step": 8400,
+      "average": {
+        "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\control-average\\average-7.pt",
+        "sha256": "11ff42758dec200e1dcd6b7ee6e99ea07f7c9d26753a288c8de36b1543cfe895",
+        "steps": [
+          4800,
+          5400,
+          6000,
+          6600,
+          7200,
+          7800,
+          8400
+        ],
+        "count": 7,
+        "bpb": 1.6171955661782045,
+        "token_ppl": 30.47985808982844,
+        "nll_nats": 1286863.6667646456,
+        "targets": 376599,
+        "utf8_bytes": 1148007,
+        "seconds": 0.8374779999999191
+      },
+      "gate_checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\control-gate\\checkpoint.pt",
+      "gate_bpb": 1.5735585572538147,
+      "gate_epoch": 10,
+      "gate_lr": 0.001
+    },
+    {
+      "name": "lr0008",
+      "lr": 0.0008,
+      "weight_decay": 0.1,
+      "train_dir": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\lr0008",
+      "best_single_bpb": 1.6563605050806234,
+      "best_single_step": 9600,
+      "average": {
+        "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\lr0008-average\\average-7.pt",
+        "sha256": "970c9607f7c47e02fbfb8321da774097a98411b43c145606b5fe3deb9212891d",
+        "steps": [
+          6000,
+          6600,
+          7200,
+          7800,
+          8400,
+          9000,
+          9600
+        ],
+        "count": 7,
+        "bpb": 1.6325486442685087,
+        "token_ppl": 31.48485013093465,
+        "nll_nats": 1299080.6915825554,
+        "targets": 376599,
+        "utf8_bytes": 1148007,
+        "seconds": 0.8391390999995565
+      },
+      "gate_checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\lr0008-gate\\checkpoint.pt",
+      "gate_bpb": 1.58211866526593,
+      "gate_epoch": 10,
+      "gate_lr": 0.001
+    },
+    {
+      "name": "wd015",
+      "lr": 0.001,
+      "weight_decay": 0.15,
+      "train_dir": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\wd015",
+      "best_single_bpb": 1.640013250391098,
+      "best_single_step": 10800,
+      "average": {
+        "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\wd015-average\\average-7.pt",
+        "sha256": "7e18c96292addcf9864f538e8f920f9357a97ad4fe7153eec13d56a2bb6a18e0",
+        "steps": [
+          7200,
+          7800,
+          8400,
+          9000,
+          9600,
+          10200,
+          10800
+        ],
+        "count": 7,
+        "bpb": 1.6184990834748318,
+        "token_ppl": 30.563923782283613,
+        "nll_nats": 1287900.9247704868,
+        "targets": 376599,
+        "utf8_bytes": 1148007,
+        "seconds": 0.815383699999984
+      },
+      "gate_checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\wd015-gate\\checkpoint.pt",
+      "gate_bpb": 1.5735398631618418,
+      "gate_epoch": 10,
+      "gate_lr": 0.001
+    }
+  ],
+  "choices": [
+    {
+      "name": "control",
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\control-gate\\checkpoint.pt",
+      "bpb": 1.5735585572538147,
+      "gate_epoch": 10,
+      "gate_lr": 0.001
+    },
+    {
+      "name": "lr0008",
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\lr0008-gate\\checkpoint.pt",
+      "bpb": 1.58211866526593,
+      "gate_epoch": 10,
+      "gate_lr": 0.001
+    },
+    {
+      "name": "wd015",
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\wd015-gate\\checkpoint.pt",
+      "bpb": 1.5735398631618418,
+      "gate_epoch": 10,
+      "gate_lr": 0.001
+    },
+    {
+      "name": "wd015-gate-lr0005",
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\gate-lr0005\\checkpoint.pt",
+      "bpb": 1.5742765037368331,
+      "gate_lr": 0.0005,
+      "gate_epoch": 10
+    },
+    {
+      "name": "previous_final",
+      "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\final-relu2-s17\\checkpoint.pt",
+      "bpb": 1.5778664826138344,
+      "gate_epoch": 5,
+      "gate_lr": 0.001
+    }
+  ],
+  "selected": {
+    "name": "wd015",
+    "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\relu2-tuning-s17\\wd015-gate\\checkpoint.pt",
+    "bpb": 1.5735398631618418,
+    "gate_epoch": 10,
+    "gate_lr": 0.001
+  },
+  "test": {
+    "baseline": {
+      "bpb": 2.1012601288579527,
+      "token_ppl": 80.84706655624653,
+      "nll_nats": 1881794.368124606,
+      "targets": 428405,
+      "utf8_bytes": 1292013,
+      "seconds": 21.071412000000237,
+      "protocol": "7506-mp1-wt2-v2",
+      "split": "test",
+      "precision": "fp32",
+      "checkpoint_sha256": "6cdf050df0d400e5a773b98e1163f03dd7a933db7932ef0985b467d169030192",
+      "implementation_sha256": "d6df368299357361af8d72a65c3f7c62798787c9825becbc40589dae14c91890",
+      "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+      "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+      "device": "cpu",
+      "device_name": "CPU",
+      "peak_allocated_gb": 0.0,
+      "peak_reserved_gb": 0.0
+    },
+    "previous": {
+      "bpb": 1.592946794605023,
+      "token_ppl": 27.937238588883996,
+      "nll_nats": 1426571.7345710495,
+      "targets": 428405,
+      "utf8_bytes": 1292013,
+      "seconds": 60.45902539999952,
+      "protocol": "7506-mp1-wt2-v2",
+      "split": "test",
+      "precision": "fp32",
+      "checkpoint_sha256": "c80d07597c5d4bc9ede7eb6e36c7bb6d8ad6d0e4f856fa1b48c7194595d076eb",
+      "implementation_sha256": "d6df368299357361af8d72a65c3f7c62798787c9825becbc40589dae14c91890",
+      "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+      "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+      "device": "cpu",
+      "device_name": "CPU",
+      "peak_allocated_gb": 0.0,
+      "peak_reserved_gb": 0.0
+    },
+    "selected": {
+      "bpb": 1.5891655362505437,
+      "token_ppl": 27.717279286755844,
+      "nll_nats": 1423185.4091094083,
+      "targets": 428405,
+      "utf8_bytes": 1292013,
+      "seconds": 58.48875440000029,
+      "protocol": "7506-mp1-wt2-v2",
+      "split": "test",
+      "precision": "fp32",
+      "checkpoint_sha256": "aaaf279179d3718bdc0d3578fa76e95716976016b2a89c83ded9c9e75438e810",
+      "implementation_sha256": "d6df368299357361af8d72a65c3f7c62798787c9825becbc40589dae14c91890",
+      "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+      "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+      "device": "cpu",
+      "device_name": "CPU",
+      "peak_allocated_gb": 0.0,
+      "peak_reserved_gb": 0.0
+    }
+  },
+  "resources": {
+    "baseline": {
+      "checkpoint_bytes": 4370805,
+      "measurement": "Windows PeakWorkingSetSize; entire evaluator process including loading",
+      "peak_working_set_bytes": 1932353536,
+      "peak_working_set_gib": 1.7996444702148438,
+      "cpu_time_ratio": 1.0,
+      "inference_asset_bytes": 4382458,
+      "within_limits": true
+    },
+    "previous": {
+      "checkpoint_bytes": 10482230,
+      "measurement": "Windows PeakWorkingSetSize; entire evaluator process including loading",
+      "peak_working_set_bytes": 1942835200,
+      "peak_working_set_gib": 1.8094062805175781,
+      "cpu_time_ratio": 2.869244139880082,
+      "inference_asset_bytes": 10493883,
+      "within_limits": true
+    },
+    "selected": {
+      "checkpoint_bytes": 10482999,
+      "measurement": "Windows PeakWorkingSetSize; entire evaluator process including loading",
+      "peak_working_set_bytes": 1943744512,
+      "peak_working_set_gib": 1.8102531433105469,
+      "cpu_time_ratio": 2.775739679903731,
+      "inference_asset_bytes": 10494652,
+      "within_limits": true
+    }
+  },
+  "hashes_verified": true,
+  "process_seconds": 1730.9806193999998
+}

@@ -1,0 +1,6 @@
+{
+  "checkpoint_bytes": 4370805,
+  "measurement": "Windows PeakWorkingSetSize; entire evaluator process including loading",
+  "peak_working_set_bytes": 1932718080,
+  "peak_working_set_gib": 1.7999839782714844
+}

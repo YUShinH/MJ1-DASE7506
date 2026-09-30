@@ -1,0 +1,222 @@
+{
+  "recommended_before_test": "relu2",
+  "frozen_hashes_verified": true,
+  "selection": {
+    "relu2": {
+      "candidates": [
+        {
+          "recipe": "fixed_cache",
+          "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\cache-relu2-s17\\checkpoint.pt",
+          "validation_bpb": 1.588454985597612
+        },
+        {
+          "recipe": "dynamic_gate",
+          "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\gate-relu2-s17\\checkpoint.pt",
+          "validation_bpb": 1.5778664826138344
+        }
+      ],
+      "selected": {
+        "recipe": "dynamic_gate",
+        "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\gate-relu2-s17\\checkpoint.pt",
+        "validation_bpb": 1.5778664826138344
+      },
+      "final_checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\final-relu2-s17\\checkpoint.pt",
+      "validation_cpu": {
+        "bpb": 1.5778664288947963,
+        "token_ppl": 28.04934457542202,
+        "nll_nats": 1255567.9849845984,
+        "targets": 376599,
+        "utf8_bytes": 1148007,
+        "seconds": 47.23788460000651,
+        "protocol": "7506-mp1-wt2-v2",
+        "split": "validation",
+        "precision": "fp32",
+        "checkpoint_sha256": "c80d07597c5d4bc9ede7eb6e36c7bb6d8ad6d0e4f856fa1b48c7194595d076eb",
+        "implementation_sha256": "d6df368299357361af8d72a65c3f7c62798787c9825becbc40589dae14c91890",
+        "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+        "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+        "device": "cpu",
+        "device_name": "CPU",
+        "peak_allocated_gb": 0.0,
+        "peak_reserved_gb": 0.0
+      }
+    },
+    "qkv_conv": {
+      "candidates": [
+        {
+          "recipe": "fixed_cache",
+          "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\cache-qkv_conv-s17\\checkpoint.pt",
+          "validation_bpb": 1.580583592356888
+        },
+        {
+          "recipe": "dynamic_gate",
+          "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\gate-qkv_conv-s17\\checkpoint.pt",
+          "validation_bpb": 1.577918655814637
+        }
+      ],
+      "selected": {
+        "recipe": "dynamic_gate",
+        "checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\gate-qkv_conv-s17\\checkpoint.pt",
+        "validation_bpb": 1.577918655814637
+      },
+      "final_checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\final-qkv_conv-s17\\checkpoint.pt",
+      "validation_cpu": {
+        "bpb": 1.5779185652946037,
+        "token_ppl": 28.052434717959365,
+        "nll_nats": 1255609.4718894793,
+        "targets": 376599,
+        "utf8_bytes": 1148007,
+        "seconds": 45.44135459999961,
+        "protocol": "7506-mp1-wt2-v2",
+        "split": "validation",
+        "precision": "fp32",
+        "checkpoint_sha256": "6bb9ed895c5a4bc582930e2610d72d6c7c8e30c7d45f20c4bc1a203873cec67d",
+        "implementation_sha256": "d6df368299357361af8d72a65c3f7c62798787c9825becbc40589dae14c91890",
+        "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+        "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+        "device": "cpu",
+        "device_name": "CPU",
+        "peak_allocated_gb": 0.0,
+        "peak_reserved_gb": 0.0
+      }
+    },
+    "previous": {
+      "final_checkpoint": "E:\\MP1_student_starter\\MP1_student_starter\\code\\runs\\final-gated-cache-s17\\checkpoint.pt",
+      "validation_cpu": {
+        "bpb": 1.5914639679689646,
+        "token_ppl": 28.86691969850078,
+        "nll_nats": 1266388.0610211112,
+        "targets": 376599,
+        "utf8_bytes": 1148007,
+        "seconds": 38.044813300002716,
+        "protocol": "7506-mp1-wt2-v2",
+        "split": "validation",
+        "precision": "fp32",
+        "checkpoint_sha256": "9211cd7be8b8bccaa0257a0121c09fd63d8678cf4082fbc72280a06a9a0d19a5",
+        "implementation_sha256": "f2a2ca840f009edd64c2dc7042f14e9fbd389970a44b5ac92bd11a9620e9ad7a",
+        "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+        "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+        "device": "cpu",
+        "device_name": "CPU",
+        "peak_allocated_gb": 0.0,
+        "peak_reserved_gb": 0.0
+      }
+    }
+  },
+  "test": {
+    "baseline": {
+      "bpb": 2.1012601288579527,
+      "token_ppl": 80.84706655624653,
+      "nll_nats": 1881794.368124606,
+      "targets": 428405,
+      "utf8_bytes": 1292013,
+      "seconds": 16.429249799999525,
+      "protocol": "7506-mp1-wt2-v2",
+      "split": "test",
+      "precision": "fp32",
+      "checkpoint_sha256": "6cdf050df0d400e5a773b98e1163f03dd7a933db7932ef0985b467d169030192",
+      "implementation_sha256": "d6df368299357361af8d72a65c3f7c62798787c9825becbc40589dae14c91890",
+      "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+      "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+      "device": "cpu",
+      "device_name": "CPU",
+      "peak_allocated_gb": 0.0,
+      "peak_reserved_gb": 0.0
+    },
+    "relu2": {
+      "bpb": 1.592946794605023,
+      "token_ppl": 27.937238588883996,
+      "nll_nats": 1426571.7345710495,
+      "targets": 428405,
+      "utf8_bytes": 1292013,
+      "seconds": 45.102997000009054,
+      "protocol": "7506-mp1-wt2-v2",
+      "split": "test",
+      "precision": "fp32",
+      "checkpoint_sha256": "c80d07597c5d4bc9ede7eb6e36c7bb6d8ad6d0e4f856fa1b48c7194595d076eb",
+      "implementation_sha256": "d6df368299357361af8d72a65c3f7c62798787c9825becbc40589dae14c91890",
+      "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+      "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+      "device": "cpu",
+      "device_name": "CPU",
+      "peak_allocated_gb": 0.0,
+      "peak_reserved_gb": 0.0
+    },
+    "qkv_conv": {
+      "bpb": 1.59382372565288,
+      "token_ppl": 27.988499328256456,
+      "nll_nats": 1427357.07470311,
+      "targets": 428405,
+      "utf8_bytes": 1292013,
+      "seconds": 63.56408830000146,
+      "protocol": "7506-mp1-wt2-v2",
+      "split": "test",
+      "precision": "fp32",
+      "checkpoint_sha256": "6bb9ed895c5a4bc582930e2610d72d6c7c8e30c7d45f20c4bc1a203873cec67d",
+      "implementation_sha256": "d6df368299357361af8d72a65c3f7c62798787c9825becbc40589dae14c91890",
+      "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+      "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+      "device": "cpu",
+      "device_name": "CPU",
+      "peak_allocated_gb": 0.0,
+      "peak_reserved_gb": 0.0
+    },
+    "previous": {
+      "bpb": 1.609431852679921,
+      "token_ppl": 28.916765516763043,
+      "nll_nats": 1441335.0135280485,
+      "targets": 428405,
+      "utf8_bytes": 1292013,
+      "seconds": 54.406649800002924,
+      "protocol": "7506-mp1-wt2-v2",
+      "split": "test",
+      "precision": "fp32",
+      "checkpoint_sha256": "9211cd7be8b8bccaa0257a0121c09fd63d8678cf4082fbc72280a06a9a0d19a5",
+      "implementation_sha256": "d6df368299357361af8d72a65c3f7c62798787c9825becbc40589dae14c91890",
+      "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+      "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+      "device": "cpu",
+      "device_name": "CPU",
+      "peak_allocated_gb": 0.0,
+      "peak_reserved_gb": 0.0
+    }
+  },
+  "resources": {
+    "baseline": {
+      "checkpoint_bytes": 4370805,
+      "measurement": "Windows PeakWorkingSetSize; entire evaluator process including loading",
+      "peak_working_set_bytes": 1932693504,
+      "peak_working_set_gib": 1.7999610900878906,
+      "inference_asset_bytes": 4382458,
+      "cpu_time_ratio": 1.0,
+      "within_limits": true
+    },
+    "relu2": {
+      "checkpoint_bytes": 10482230,
+      "measurement": "Windows PeakWorkingSetSize; entire evaluator process including loading",
+      "peak_working_set_bytes": 1943220224,
+      "peak_working_set_gib": 1.8097648620605469,
+      "inference_asset_bytes": 10493883,
+      "cpu_time_ratio": 2.7452864585460475,
+      "within_limits": true
+    },
+    "qkv_conv": {
+      "checkpoint_bytes": 10511162,
+      "measurement": "Windows PeakWorkingSetSize; entire evaluator process including loading",
+      "peak_working_set_bytes": 1944825856,
+      "peak_working_set_gib": 1.8112602233886719,
+      "inference_asset_bytes": 10522815,
+      "cpu_time_ratio": 3.8689586605471966,
+      "within_limits": true
+    },
+    "previous": {
+      "checkpoint_bytes": 10482294,
+      "measurement": "Windows PeakWorkingSetSize; entire evaluator process including loading",
+      "peak_working_set_bytes": 1943769088,
+      "peak_working_set_gib": 1.8102760314941406,
+      "inference_asset_bytes": 10493947,
+      "cpu_time_ratio": 3.311572376238658,
+      "within_limits": true
+    }
+  }
+}
